@@ -353,7 +353,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="5.08" y="0" drill="1.70688125"/>
 <pad name="A" x="-1.27" y="-5.08" drill="1.0922" diameter="2.032"/>
 <pad name="K" x="1.27" y="-5.08" drill="1.0922" diameter="2.032"/>
-<pad name="S1" x="-3.81" y="2.54" drill="1.7526" diameter="2.54"/>
+<pad name="S1" x="-3.81" y="2.54" drill="1.7526" diameter="3.2258"/>
 <pad name="S2" x="2.54" y="5.08" drill="1.7526" diameter="3.2258"/>
 <text x="-2.159" y="-5.08" size="1.524" layer="21" font="vector" ratio="15" align="center-right">+</text>
 <text x="2.54" y="-5.08" size="1.524" layer="21" font="vector" ratio="15" align="center-left">-</text>
@@ -1309,9 +1309,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="73.66" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="193.04" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
-<label x="182.88" y="78.74" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="193.04" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="182.88" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="X2" class="0">
@@ -1333,9 +1333,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="101.6" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="193.04" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="182.88" y="81.28" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="193.04" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
+<label x="182.88" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">

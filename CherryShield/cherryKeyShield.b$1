@@ -743,22 +743,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="71.1708" y1="49.6824" x2="64.77" y2="56.0832" width="0.1524" layer="1"/>
 <wire x1="71.1708" y1="49.6824" x2="71.19" y2="49.54" width="0.1524" layer="1"/>
 </signal>
-<signal name="S$1">
-<polygon width="0.1524" layer="1">
-<vertex x="0" y="80.01"/>
-<vertex x="100.33" y="80.01"/>
-<vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-</signal>
-<signal name="S$2">
-<polygon width="0.1524" layer="16">
-<vertex x="0" y="80.01"/>
-<vertex x="100.33" y="80.01"/>
-<vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-</signal>
 </signals>
 </board>
 </drawing>
