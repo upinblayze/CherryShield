@@ -2,9 +2,9 @@
 
 > This project references [this](https://learn.sparkfun.com/tutorials/cherry-mx-switch-breakout-hookup-guide?_ga=2.203788117.458645258.1494055496-431278443.1491328355) guide from [sparkfun](www.sparkfun.com)
 
-This repository is meant to create a prototype with using [cherry-mx switches](http://cherryamericas.com/product/mx-series-2/) including necessary concepts such as debouncing.
+This repository is meant to create a prototype using [cherry-mx switches](http://cherryamericas.com/product/mx-series-2/) including necessary concepts such as designing a key matrix and leveraging properties of a general purpose diode.
 
-This project if dependent on [Sparkfun](www.sparkfun.com)'s EAGLE libraries and also OSHPark's DRU file. The EAGLE library is necessary because we use an already made cherry-mx switch footprints.
+This project is dependent on [Sparkfun](www.sparkfun.com)'s EAGLE libraries and also OSHPark's DRU file. The EAGLE library is necessary because we use an already made cherry-mx switch footprint.
 
 ## Get EAGLE
 The EAGLE download can be found [here](https://www.autodesk.com/products EAGLE/free-download). The free version is sufficient in this case
