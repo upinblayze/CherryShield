@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1227,15 +1227,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="27.94" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="101.6" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="101.6" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <junction x="58.42" y="99.06"/>
 <label x="45.72" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="76.2" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="101.6" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
@@ -1259,6 +1256,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="66.04" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <label x="45.72" y="66.04" size="1.778" layer="95"/>
+<junction x="58.42" y="63.5"/>
+<junction x="88.9" y="63.5"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
@@ -1270,15 +1269,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="27.94" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="30.48" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="30.48" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <junction x="58.42" y="27.94"/>
 <label x="48.26" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="76.2" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="86.36" y1="27.94" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="30.48" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
@@ -1404,6 +1400,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,200.66,82.6177,J1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
