@@ -42,7 +42,4 @@ eagle.epf
 # file locks introduced since 7.x
 *.lck
 
-Controller/.vscode/settings.json
-Controller/.vscode/arduino.json
-Controller/.vscode/c_cpp_properties.json
-Controller/.vscode/launch.json
+/Controller/.*/
